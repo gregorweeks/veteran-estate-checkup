@@ -442,7 +442,7 @@ if ($_SESSION["group"]=="4") {
     }
     else if ($_POST["fp"]=="no") {
       $fp="no";
-      $_SESSION["fp"]="fp";
+      $_SESSION["fp"]="no";
     }
     else {
       $fpmsg="<div class=\"msg\">Please select whether you want to name someone to make legal or financial decisions for you if you can't.</div>";
